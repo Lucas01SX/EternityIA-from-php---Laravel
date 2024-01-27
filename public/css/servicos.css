@@ -1,0 +1,218 @@
+#container-servicos{
+    width: 97vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+    margin-top: 4.5%;
+}
+#Planos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5%;
+}
+.plano-basic {
+    border: 2px solid white;
+    width: 420px;
+    height: 535px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5%;
+}
+.plano-cristal {
+    border: 2px solid white;
+    width: 420px;
+    height: 535px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5%;
+}
+.plano-ruby {
+    border: 2px solid white;
+    width: 420px;
+    height: 535px;
+    background: none;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5%;
+}
+.plano-basic img {
+    padding-top: 1%;
+    margin-left: 40%;
+}
+.text-basic {
+    padding-left: 1rem;
+}
+.text-basic-1 {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-align: justify;
+    margin-top: 2%;
+}
+.text-basic-2 {
+    margin: 2%;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.text-basic-3 {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+.text-basic-4 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    margin: 2%;
+}
+.text-basic-5 {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.text-basic-6 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    margin: 2%;
+}
+.text-basic-7 {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.text-basic-8 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin: 2%;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.plano-cristal img {
+    padding-top: 1%;
+    margin-left: 40%;
+}
+.plano-ruby img {
+    padding-top: 1%;
+    margin-left: 40%;
+}
+.assinar-serviço-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 50px;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Existing styles for larger screens */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust the font size for smaller screens if necessary */
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ul-nav-1, .ul-nav-2 {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .ul-nav-2 {
+        margin-top: 1rem;
+    }
+    .logo {
+        margin: 1rem 0;
+    }
+    #Planos {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .plano-basic, .plano-cristal, .plano-ruby {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .plano-basic img, .plano-cristal img, .plano-ruby img {
+        margin-left: 0;
+    }
+    .assinar-serviço-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header-section-2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .header-section-2-info button {
+        margin-left: 7.5rem;
+    }
+    .header-section-2-info {
+        padding-left: 0;
+        text-align: center;
+    }
+    #header-section-3 {
+        padding-top: 1rem;
+    }
+    .nome-email {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .nome, .email {
+        width: 100%;
+        margin-left: 0;
+    }
+    #nome1, #email1 {
+        width: 100%;
+    }
+    #mensagem1 {
+        width: 100%;
+    }
+    #header-section-3 button {
+        margin-left: 0;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 0;
+    }
+}

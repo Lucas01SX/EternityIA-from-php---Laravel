@@ -1,0 +1,93 @@
+#ceo-main {
+    width: 97vw;
+    height: 100vh;
+    display: flex;
+    margin-top: 2%;
+}
+#texxt-1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#texxt-1 h2 {
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+#texxt-1 div {
+    width: 80%;
+    border: 2px solid white;
+    padding: 1.5%;
+    border-radius: 10px;
+}
+#texxt-1 div p {
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+.sobre-nos {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sobre-nos img {
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 4%;
+}
+
+.text-1-sobre-nos {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    text-transform: uppercase;
+    margin: 1%;
+}
+
+.text-2-sobre-nos {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 1%;
+}
+
+.text-3-sobre-nos {
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 1%;
+}
+
+.text-4-sobre-nos {
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.sobre-nos button {
+    cursor: pointer;
+    width: 240px;
+    height: 50px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}

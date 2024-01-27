@@ -1,0 +1,462 @@
+@import url(./servicos.css);
+@import url(./sobre-nos.css);
+@import url(./contate-nos.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(84,228,227);
+    background: linear-gradient(90deg, rgba(84,228,227,1) 0%, rgba(253,29,109,1) 50%, rgba(252,69,248,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    width: 97vw;
+}
+.ul-nav-1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+.ul-nav-2 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 2px;
+}
+.ul-nav-1-li {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+.ul-nav-2-li {
+    padding-right: 2rem;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.logo {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+header {
+    display: grid;
+    width: 97vw;
+    height: 80vh;
+}
+#header-section {
+    margin-left: 3rem;
+    display: flex;
+}
+.header-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-section-1 h1 {
+    margin-top: 18px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+.header-section-1 p {
+    margin: 28px 30px;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+}
+.header-section-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.header-section-3 button {
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    text-transform: uppercase;
+}
+.fadde-effect {
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#container-1 {
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5%;
+    width: 100%;
+    height: 100%;
+}
+.Suporte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    gap: 1%;
+}
+.Suporte img {
+    padding-left: 20px;
+}
+.Suporte .title-section {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Suporte p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2%;
+}
+.Capacidade {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 325px;
+    height: 250px;
+    border: 2px solid white;
+    gap: 1%;
+}
+.Capacidade img {
+    margin-top: 5%;
+}
+.Capacidade .title-section {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Capacidade p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2%;
+}
+.Reembolso {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 325px;
+    height: 250px;
+    border: 2px solid white;
+    gap: 1%;
+}
+.Reembolso img {
+    margin-top: 1%;
+}
+.Reembolso .title-section {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Reembolso p {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2%;
+}
+section a {
+    width: 268px;
+    height: 53px;
+}
+section a button {
+    width: 268px;
+    height: 53px;
+}
+#btn-saiba-mais {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn-saiba-mais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saiba-mais {
+    cursor: pointer;
+    width: 130px;
+    height: 53px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.section1-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.section1-container-2 p {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    width: 85%;
+}
+#conttainer-3 {
+    width: 100%;
+    height: 53px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+#conttainer-3 button {
+    cursor: pointer;
+    width: 268px;
+    height: 53px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    background: none;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+    width: 97vw;
+    height: 100vh;
+}
+#container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+#container-4 p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 1%;
+}
+.nome-email {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    color: white;
+    margin: 3%;
+}
+.nome {
+    font-size: 14px;
+    gap: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+#nome1 {
+    background-color: none;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 38px;
+    text-transform: uppercase;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.email {
+    font-size: 14px;
+    gap: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+#email1 {
+    background: rgb(216,240,239);
+    background: linear-gradient(194deg, rgba(216,240,239,1) 17%, rgba(255,255,255,1) 93%);
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 2%;
+    text-transform: uppercase;
+}
+.mensagem {
+    font-size: 14px;
+    color: white;
+    gap: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+#mensagem1 {
+    background: rgb(216,240,239);
+    background: linear-gradient(194deg, rgba(216,240,239,1) 17%, rgba(255,255,255,1) 93%);
+    width: 450px;
+    height: 70px;
+    border-radius: 15px;
+    padding: 2%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#container-4 button {
+    margin: 3%;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact div p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 3%;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Existing CSS styles remain unchanged */
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        background: rgb(84,228,227);
+        background: linear-gradient(90deg, rgba(84,228,227,1) 0%, rgba(253,29,109,1) 50%, rgba(252,69,248,1) 100%);
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ul-nav-1 {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .ul-nav-1-li, .ul-nav-2-li {
+        padding-bottom: 0.7rem;
+        padding-right: 0;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #header-section {
+        margin-left: 0;
+    }
+    .header-section-1 {
+        margin-right: 0;
+        text-align: center;
+    }
+    .header-section-3 {
+        margin-left: 0;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+    .saiba-mais {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #container-1 {
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .Suporte, .Capacidade, .Reembolso {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .section1-container-2 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .section1-container-2 h1 {
+        margin-bottom: 2rem;
+    }
+    #container-3, #container-4 {
+        width: 100%;
+    }
+    #container-4 .nome-email {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    #container-4 .nome, #container-4 .email {
+        text-align: center;
+    }
+}
